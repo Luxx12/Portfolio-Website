@@ -12,9 +12,9 @@ const PROFILE = {
   github: "https://github.com/luxx12",
   linkedin: "https://linkedin.com/in/Gabriel-B-Otero",
   about: [
-    "Hi! I'm Gabriel, a computer science student at the University of Central Florida with a 4.0 GPA and a passion for building innovative solutions.",
-    "I specialize in full-stack development, game design, and computer vision applications. With experience in teaching, web development, and hackathon competitions, I've accrued over $20,000 in combined team hackathon awards.",
-    "When I'm not coding, you can find me leading workshops on programming and cybersecurity, mentoring students in game development, or competing in hackathons across Florida."
+    "Hi, I’m Gabriel — a computer science student at the University of Central Florida with a passion for building creative and impactful technology. I specialize in full-stack development, game design, and computer vision, and I’m always looking for new ways to connect these skills in meaningful projects.",
+    "I’ve led programming and cybersecurity workshops, mentored students in game development, and competed in hackathons across Florida — earning over $20,000 in team awards along the way.",
+    "Outside of tech, I’m a big fan of sci-fi books like Dune, love playing video games, and working out or doing BJJ. I try to bring the same curiosity and discipline I use in the gym and in games to everything I build and learn."
   ]
 };
 
