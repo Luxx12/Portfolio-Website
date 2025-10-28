@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import { Home, Code, MapPin, Calendar, ExternalLink, Github, Linkedin, Mail, Award, Users, Briefcase, GraduationCap } from 'lucide-react';
 
-// =======================
-// EDIT YOUR CONTENT HERE
-// =======================
-
 const PROFILE = {
   name: "Gabriel Barreto Otero",
   title: "Computer Science Student @ UCF",
