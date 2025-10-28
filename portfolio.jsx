@@ -267,23 +267,23 @@ const Portfolio = () => {
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-24 pr-48 sm:pr-56 relative z-10">
           {/* Hero Section */}
-          <div className="flex flex-col md:flex-row items-center gap-16 mb-16">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-16 mb-8">
             <div className="flex-shrink-0">
-              <div className="relative">
+              <div className="relative w-80 h-80">
                 <img
                   src={PROFILE.image}
                   alt={PROFILE.name}
-                  className="w-80 h-80 object-cover rounded-2xl border-2 border-amber-400/50 shadow-2xl"
+                  className="w-full h-full object-cover rounded-2xl border-2 border-amber-400/50 shadow-2xl"
                 />
               </div>
             </div>
-            <div className="flex-1 text-center md:text-left space-y-12">
-              <h1 className="text-6xl font-extralight text-stone-800 tracking-wide leading-tight">{PROFILE.name}</h1>
+            <div className="flex-1 text-center md:text-left space-y-6 min-w-0">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extralight text-stone-800 tracking-wide leading-tight">{PROFILE.name}</h1>
               {/* Animated Role Text */}
               <div className="h-12 overflow-hidden pt-4">
                 <p 
                   key={roleIndex}
-                  className="text-xl text-amber-700 font-light tracking-wide animate-fadeInOut"
+                  className="text-lg md:text-xl text-amber-700 font-light tracking-wide animate-fadeInOut"
                 >
                   {roles[roleIndex]}
                 </p>
